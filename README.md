@@ -199,8 +199,6 @@ The chart below shows the vulnerability matrix based on category of vulnerabilit
 During our assessment, we observed the following properties of the Lingoteach.ai application that are well-designed and contribute to its security posture:
 
 - The application uses HTTPS for all communication between client and server, ensuring data in transit is encrypted.
-- JWT tokens are issued with HttpOnly and Secure flags on session cookies for the authentication flow, limiting client-side script access.
-- The application implements SameSite=Strict on authentication cookies, providing protection against cross-site request forgery in the session cookie mechanism.
 - The application does not appear to be vulnerable to SQL injection on the tested endpoints.
 - The application returns appropriate HTTP error codes for invalid authentication attempts.
 - OAuth/Google SSO integration is present, providing users with a secure third-party authentication option.

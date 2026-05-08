@@ -216,7 +216,7 @@ The following application-wide weaknesses were identified during the assessment.
 
 ---
 
-> **Note:** The vulnerabilities below were identified and verified by NuageCX during the process of this Web Application Penetration Test for Lingoteach.ai. Retesting should be planned to follow the remediation of these vulnerabilities.
+> **Note:** The vulnerabilities below were identified and verified by NuageCX during the process of this Web Application Penetration Test for Lingoteach.ai.
 
 ---
 
